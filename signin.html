@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazonsignin</title>
+    <style>
+        .logo {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .logo img {
+            height: 35px;
+        }
+        .form {
+            display: flex;
+            justify-content: center;
+
+        }
+        .form form {
+            height: 450px;
+            width: 340px;
+            border: 1px solid gray;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .form form h1 {
+            font-weight: 500;
+        }
+        .form form label {
+            font-weight: bold;
+        }
+        .form form input {
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        .form form button {
+            width: 300px;
+            height: 30px;
+            background-color: yellow;
+            border-radius: 400px;
+            border: 1px solid yellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="Images/amazon white logo.svg" alt="">
+    </div>
+    <br>
+    <div class="form">
+        <form action="">
+            <h1 class="a-spacing-small">Sign in</h1>
+            <label>Email or mobile phone number</label>
+            <br>    
+            <input type="text">
+            <br><br>
+            <button type="submit" onclick="submitEvent">Continue</button>
+            <br><br>
+            <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+            <br><br><br>
+            
+            <select name="" id="">
+                <label>Need help?</label>
+                <option>Forgot your password?</option>
+                <option>Other issues with sign-in</option>
+            </select>
+            <br><br>
+            <hr>
+            <br>
+            <label>Buying for work?</label>
+            <br>
+            <a href="">Shop on Amazon business</a>
+        </form>
+    </div>
+    <script>
+        let form = document.getElementsByTagName("form");
+
+        form.addEventlistener("submit", function(event){
+            let email =document.getElementsByTagName("label");
+
+            if()
+        })
+
+        
+
+
+    </script>
+    </body>
+    
+</html>
